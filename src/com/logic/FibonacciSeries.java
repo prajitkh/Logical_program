@@ -1,13 +1,15 @@
-package com.logic.dsa;
+package com.logic;
 
-public class FibonacciUsingRecursion {
-
+public class FibonacciSeries {
 	static int a = 0, b = 1, c;
 
 	void printFibo(int i) {
-		if (i >= 1) {
-			System.out.print(c + " ");
+
+		if (i >= 0) {
+
 			c = a + b;
+
+			System.out.print(c + " ");
 			a = b;
 			b = c;
 			printFibo(i - 1);
@@ -16,8 +18,8 @@ public class FibonacciUsingRecursion {
 	}
 
 	public static void main(String[] args) {
-		FibonacciUsingRecursion fib = new FibonacciUsingRecursion();
-		
+		FibonacciSeries fib = new FibonacciSeries();
+		System.out.print(a + " " + b + " ");
 		fib.printFibo(10);
 
 	}
