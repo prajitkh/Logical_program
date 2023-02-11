@@ -1,6 +1,9 @@
 package com.logic;
 
 public class A {
+	A() {
+
+	}
 
 	public static void main(String[] args) {
 		int arr[] = { 2, 45, 76, 44, 23, 71 };
