@@ -2,7 +2,7 @@ package com.logic;
 
 public class MissingNumber {
 	public static void main(String[] args) {
-		int arr[] = { 1, 2, 3, 5 };
+		int arr[] = { 1, 2, 3, 5, 5, 6 };
 		double num = arr.length + 1;
 
 		double size = num / 2;

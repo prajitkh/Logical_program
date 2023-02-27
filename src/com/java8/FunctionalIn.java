@@ -4,9 +4,8 @@ package com.java8;
 
 //implement a user defined functional interface.
 
-public class FunctionalIn implements V {
+public class FunctionalIn {
 
-	@Override
 	public void method1() {
 		// TODO Auto-generated method stub
 
@@ -14,7 +13,7 @@ public class FunctionalIn implements V {
 
 	public static void main(String[] args) {
 		FunctionalIn functionalIn = new FunctionalIn();
-		functionalIn.method2();
+		functionalIn.method1();
 	}
 //
 //	public static void main(String[] args) {

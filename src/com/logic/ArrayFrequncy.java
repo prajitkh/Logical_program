@@ -21,9 +21,8 @@ public class ArrayFrequncy {
 			if (count[i] != -1)
 				count[i] = c;
 
-			if(count[i]>max)
-				max=arr[i];
-
+			if (count[i] > max)
+				max = arr[i];
 
 //
 //		List<Integer> list = Arrays.asList(5, 6, 34, 67, 88, 44, 22, 44, 44, 22);
@@ -41,8 +40,7 @@ public class ArrayFrequncy {
 //
 //		liss.forEach(ee -> System.out.print(ee + " "));
 
-			}
-
 		}
+
 	}
 }

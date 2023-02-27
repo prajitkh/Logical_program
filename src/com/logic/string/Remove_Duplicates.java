@@ -20,6 +20,7 @@ public class Remove_Duplicates {
 			Character ch = (Character) itr.next();
 			s += ch.toString();
 		}
-		return s;
+		System.out.println(list);
+
 	}
 }

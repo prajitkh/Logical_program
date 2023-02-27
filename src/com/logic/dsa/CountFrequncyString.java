@@ -3,7 +3,7 @@ package com.logic.dsa;
 public class CountFrequncyString {
 	public static void main(String[] args) {
 
-		String name = "prajittr";
+		String name = "prajittrwrtttrrrrrr";
 		int count = 0;
 		int lock = -1;
 		char c[] = name.toCharArray();

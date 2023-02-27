@@ -2,8 +2,8 @@ package com.logic.dsa;
 
 public class PrimeNumber {
 	public static void main(String[] args) {
-		int n = 12;
-		int temp = 0;
+		int n = 7;
+
 		int i;
 		for (i = 2; i <= n; i++) {
 			if (n % i == 0) {

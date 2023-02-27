@@ -13,7 +13,7 @@ public class V {
 //	}
 
 		String[] countryCodes = Locale.getISOCountries();
-		System.out.println(Arrays);
+
 	}
 
 }

@@ -10,7 +10,7 @@ public class Threading implements Runnable {
 
 	public static void main(String[] args) {
 		Threading threading = new Threading();
-		Thread thread = new Thread(threading.);
+		Thread thread = new Thread();
 		thread.start();
 	}
 
