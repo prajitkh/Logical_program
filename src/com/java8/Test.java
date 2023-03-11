@@ -2,5 +2,8 @@ package com.java8;
 
 public interface Test {
 
-	public void m1();
+	default void m1() {
+
+		System.out.println("test method");
+	}
 }

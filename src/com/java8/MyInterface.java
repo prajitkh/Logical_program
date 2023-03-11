@@ -1,11 +1,9 @@
 package com.java8;
 
-@FunctionalInterface
 public interface MyInterface {
-	void m1();
 
-	static void m2() {
-		System.out.println("interface class");
+	default void m1() {
+		System.out.println("my interface  class");
 	}
 
 }
