@@ -7,18 +7,21 @@ public class AmstrongNumber {
 
 		int rem;
 		int digit;
-		for (i = 153; i <= 10000; i++) {
+		int temp;
+		for (i = 153; i < 10000; i++) {
+			temp = i;
 			int sum = 0;
-			int temp = i;
-			digit = (int) (Math.log10(temp) + 1);
+			digit = (int) Math.log10(temp) + 1;
+
 			while (temp > 0) {
 				rem = temp % 10;
-				sum = sum + (int) Math.pow(rem, digit);
+				sum += Math.pow(rem, digit);
 				temp = temp / 10;
 			}
-			if (sum == i)
-				System.out.println(i + " Amstrong number ");
+			if (sum == i) {
+
+				System.out.println(i + "Amstrong number ");
+			}
 		}
 	}
-
 }
